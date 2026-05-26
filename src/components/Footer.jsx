@@ -17,14 +17,14 @@ export default function Footer() {
         <div className="flex flex-wrap gap-6 text-md font-semibold text-gray-500 dark:text-gray-300">
 
           <a
-            href="mailto:your-email@gmail.com"
+            href="mailto:shubhangijha4444@gmail.com"
             className="flex items-center gap-2 hover:text-teal-600 transition"
           >
             <MdEmail /> Email
           </a>
 
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/ShubhangiJha-dot"
             target="_blank"
             className="flex items-center gap-2 hover:text-teal-600 transition"
           >
@@ -32,7 +32,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/shubhangi-jha-403457310/"
             target="_blank"
             className="flex items-center gap-2 hover:text-teal-600 transition"
           >
@@ -40,7 +40,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://leetcode.com/yourusername"
+            href="https://leetcode.com/u/gK1cjiJgFc/"
             target="_blank"
             className="flex items-center gap-2 hover:text-teal-600  transition"
           >

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* 👇 THIS LINE FIXES EVERYTHING */
+@custom-variant dark (&:where(.dark, .dark *));
+.light {
+  /* background-color: white; */
+  background-color: oklch(97.7% 0.013 236.62);
+  color: black;
+  min-height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+.dark {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+}
+
+nav {
+  color:oklch(60% 0.118 184.704);
+  background-color: rgba(225, 225, 225, 0.1);
+}
+
+.dark nav {
+  color:oklch(77.7% 0.152 181.912);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+html {
+  scroll-behavior: smooth;
+}

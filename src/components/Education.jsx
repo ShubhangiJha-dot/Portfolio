@@ -4,7 +4,7 @@ const education = [
     uni: "Indira Gandhi Delhi Technical University for Women",
     degree: "Bachelor of Technology",
     course:"CSE-AI",
-    cgpa:"8.84/10",
+    cgpa:"9.05/10",
     duration: "2024– 2028(expected)",
     location: "Delhi, India",
   },
